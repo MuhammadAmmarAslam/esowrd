@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Set the width of the scrollbar */
+::-webkit-scrollbar {
+  display: none;
+}
+
+header h3 {
+  font-family: 'Pridi';
+}
+
+header ul {
+  font-family: 'AbeeZee';
+}
+html{
+  font-family: 'Kanit';
+}

@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/output.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=ABeeZee&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pridi&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <section class="w-full">
+        <header class="w-full">
+            <div class="flex py-4 mx-auto xl:mx-8 w-full">
+                <!-- mobile -->
+                <div class="relative md:hidden w-[15%] flex">
+                    <div class="pl-3">
+                        <button class="lg:hidden" id="activatebutton">
+                            <i class="fa-solid fa-bars"></i>
+                        </button>
+                    </div>
+                    <div class="absolute">
+                        <ul class="list-none hidden flex-col text-left bg-white text-base w-screen h-screen"
+                            id="headerul">
+                            <div class="flex">
+                                <div class="py-4 px-2 min-w-[40px]">
+                                    <button class="lg:hidden" id="closingbutton">
+                                        <i class="fa-solid fa-xmark text-2xl"></i>
+                                    </button>
+                                </div>
+
+                                <div class="flex text-orange-400 gap-x-3 mx-1">
+                                    <img src="/images/logo.png " class="object-contain">
+                                    <h3 class="text-orange-400 font-normal text-lg py-4">
+                                        loremtravel.com
+                                    </h3>
+                                </div>
+                            </div>
+                            <div class="mx-12 my-5 gap-3 flex flex-col">
+                                <li>Home</li>
+                                <li>Discover</li>
+                                <li>Photo</li>
+                                <li>Contact</li>
+                            </div>
+
+                        </ul>
+                    </div>
+                </div>
+                <!-- All other devices -->
+                <div class="flex text-orange-400 md:w-[57%] xl:w-[54%] w-[70%]">
+                    <img src="/images/logo.png " class="px-8">
+                    <h3 class="text-orange-400 font-normal text-lg">
+                        loremtravel.com
+                    </h3>
+                </div>
+                <div class="justify-between w-[40%] md:flex hidden">
+                    <div class="w-full">
+                        <ul class="flex justify-evenly w-full text-base">
+                            <li> <a href=""> Home</a></li>
+                            <li> <a href="">Discover</a> </li>
+                            <li> <a href="">Photo</a> </li>
+                            <li> <a href=""> Contact</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <img src="/images/header-man.png" alt="">
+                    </div>
+                </div>
+                <!-- mobile -->
+                <div class="block md:hidden w-[15%] justify-end">
+                    <img src="/images/header-man.png">
+                </div>
+
+            </div>
+        </header>
+    </section>
+    <section
+        class="w-full lg:bg-[url('/images/info.png')] bg-no-repeat bg-cover object-contain lg:block hidden lg:pb-12">
+
+        <div class="h-[600px] flex justify-between object-contain bg-cover max-w-screen-xl lg:mx-8 xl:ml-20 xl:mr-2">
+            <div
+                class="text-white flex flex-col justify-center align-middle lg:max-w-[50%] md:max-w-full object-contain bg-cover lg:mt-20">
+                <div class="xl:w-[640px] xl:mx-[70px]">
+                    <div class="">
+                        <h3 class="font-normal text-white text-5xl py-5">TRAVEL NEWS</h3>
+                        <hr class="xl:w-[95%] lg:w-[80%] md:40%">
+                    </div>
+                    <div class="xl:ml-2  ">
+                        <p class="font-normal text-white text-base lg:w-[83%] py-5 md:max-w-full md:w-[62%]">
+                            Lorem ipsum dolor sit amet consectetur. Lectus diam turpis condimentum convallis in. Ac
+                            lorem
+                            cras
+                            laoreet proin suscipit tempor nibh fermentum. Quisque varius sit elit placerat nulla
+                            ullamcorper
+                            eget. Lobortis semper nec augue sed aliquam. In eget mattis dui arcu mauris blandit.
+                            Elementum
+                            neque
+                            magna vestibulum amet sagittis vel.
+                        </p>
+                        <h3
+                            class="font-normal text-white xl:text-4xl lg:text-3xl lg:pb-3 xl:w-full lg:w-[100%] md:w-full py-4">
+                            Get 10% Off on your next travel
+                        </h3>
+                        <div class="flex lg:gap-x-5 lg:justify-start md:justify-between md:my-4">
+                            <button
+                                class="text-base font-normal border-2 border-white rounded-3xl pl-5 pr-32 py-2 text-white bg-transparent cursor-pointer">
+                                Enter your E-Mail
+                            </button>
+                            <button
+                                class="bg-orange-500 text-base font-normal px-6 py-2 border-2 border-white  rounded-3xl text-white cursor-pointer">
+                                SUBSCRIBE
+                            </button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="max-w-[50%] content-center justify-center align-middle md:max-w-full lg:mt-20">
+                <div
+                    class="flex flex-col bg-white lg:h-[400px] lg:w-[440px] justify-center content-center align-middle w-full mt-12">
+                    <div class="flex justify-between mx-8 pt-8">
+                        <h1 class="text-black font-semibold text-3xl">
+                            MORE NEWS
+                        </h1>
+                        <div class=" flex pt-2 gap-x-3 md:gap-x-4">
+                            <a href="" class=""><img src="/images/news.png" alt=""></a>
+                            <a href=""> <img src="/images/news1.png" alt=""></a>
+                        </div>
+
+                    </div>
+                    <hr class="mx-8 border-1 border-black  w-auto">
+                    <div class="md:flex flex-col mt-4">
+                        <div>
+                            <h1 class="font-medium text-xl text-orange-500 mx-8 pt-2 ">
+                                TRAVEL NEWS
+                            </h1>
+                            <P class="font-normal text-base text-black mx-8 pt-2 w-auto xl:w-[82%]">
+                                Lorem ipsum dolor sit amet consectetur. Lectus diam turpis condimentum convallis in.
+                                Ac
+                                lorem
+                                cras laoreet proin suscipit tempor nibh fermentum.
+                            </P>
+                        </div>
+                        <div>
+                            <h1 class="font-medium text-xl text-orange-500 mx-8 pt-2 ">
+                                TRAVEL NEWS
+                            </h1>
+                            <P class="font-normal text-base text-black mx-8 pt-2 w-auto xl:w-[82%]">
+                                Lorem ipsum dolor sit amet consectetur. Lectus diam turpis condimentum convallis in.
+                                Ac
+                                lorem
+                                cras laoreet proin suscipit tempor nibh fermentum.
+                            </P>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+    <!-- mobile section/tabsection -->
+    <section class="lg:hidden">
+        <div class="bg-[url('/images/info.png')]  bg-no-repeat bg-cover object-contain w-full md:pt-20">
+            <div class="md:text-left text-center w-auto md:mx-8 mx-4">
+                <h3 class="font-normal text-white text-4xl pt-5 pb-2">TRAVEL NEWS</h3>
+                <hr class="">
+            </div>
+            <div class="mx-4 py-3 md:w-auto md:mx-8">
+                <p class="font-normal text-white md:w-[88%] md:py-4 w-[96%] md:text-xl">
+                    Lorem ipsum dolor sit amet consectetur. Lectus diam turpis condimentum convallis in. Ac
+                    lorem
+                    cras
+                    laoreet proin suscipit tempor nibh fermentum. Quisque varius sit elit placerat nulla
+                    ullamcorper
+                    eget. Lobortis semper nec augue sed aliquam. In eget mattis dui arcu mauris blandit.
+                    Elementum
+                    neque
+                    magna vestibulum amet sagittis vel.
+                </p>
+                <h3 class="font-normal text-white text-[1.7rem] max-w-full md:text-4xl">
+                    Get 10% Off on your next travel
+                </h3>
+                <div class="flex md:flex-row flex-col md:justify-between md:my-4 justify-center w-auto md:hidden">
+                    <button
+                        class="text-base font-normal border-2 border-white rounded-3xl pl-5 text-left py-3 text-white bg-transparent w-auto cursor-pointer">
+                        Enter your E-Mail
+                    </button>
+                    <button
+                        class="bg-orange-500 font-normal px-10 py-3 my-5 text-center border-2 text-white border-white rounded-3xl w-1/2  mx-auto cursor-pointer text-base">
+                        SUBSCRIBE
+                    </button>
+                </div>
+                <div class="md:flex hidden justify-between w-full">
+                    <button
+                        class="border-white text-left text-white bg-transparent border-4 my-5 pl-5 pr-48 rounded-full cursor-pointer font-normal text-base">
+                        Enter your E-Mail
+                    </button>
+                    <button
+                        class="font-normal text-base bg-orange-500 px-10 py-3 my-5 text-center border-4 text-white border-white rounded-3xl cursor-pointer">
+                        SUBSCRIBE
+                    </button>
+                </div>
+
+            </div>
+        </div>
+        <div class="flex flex-col content-center justify-center align-middle">
+            <div class="flex flex-col bg-white justify-center content-center align-middle w-full md:mx-8 md:w-auto">
+                <div class="flex justify-between mx-4 md:mx-0 my-2">
+                    <h1 class="text-black font-medium md:text-3xl text-2xl">
+                        MORE NEWS
+                    </h1>
+                    <div class="md:flex gap-x-5 hidden pt-2">
+                        <a href="" class=""><img src="/images/news.png" alt=""></a>
+                        <a href=""> <img src="/images/news1.png" alt=""></a>
+                    </div>
+                </div>
+                <hr class="border-1 border-black w-auto">
+                <div class="flex flex-col md:flex-row my-2 md:w-auto mx-4 md:mx-0">
+                    <div class="w-auto">
+                        <h1 class="font-medium md:text-xl text-lg text-orange-500 w-full">
+                            TRAVEL NEWS
+                        </h1>
+                        <P class="font-normal md:text-base text-sm text-black py-2 md:w-[90%] w-auto">
+                            Lorem ipsum dolor sit amet consectetur. Lectus diam turpis condimentum convallis in.
+                            Ac
+                            lorem
+                            cras laoreet proin suscipit tempor nibh fermentum.
+                        </P>
+                    </div>
+                    <div class="w-auto md:mx-4 mx-0">
+                        <h1 class="font-medium md:text-xl text-lg text-orange-500 w-full">
+                            TRAVEL NEWS
+                        </h1>
+                        <P class="font-normal md:text-base text-sm text-black py-2 md:w-[90%] w-auto">
+                            Lorem ipsum dolor sit amet consectetur. Lectus diam turpis condimentum convallis in.
+                            Ac
+                            lorem
+                            cras laoreet proin suscipit tempor nibh fermentum.
+                        </P>
+                    </div>
+                    <div class="flex pt-2 justify-between md:hidden">
+                        <a href="" class=""><img src="/images/news.png" alt=""></a>
+                        <a href=""> <img src="/images/news1.png" alt=""></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <!-- Discovery -->
+    <section class="w-full">
+        <div
+            class="xl:max-w-screen-xl lg:max-w-[960px] w-auto  justify-between flex flex-col xl:ml-[130px] mx-4 md:mx-8">
+            <h1 class="text-black font-medium md:text-3xl text-2xl md:py-8 lg:px-0 lg:mx-0 md:mx-0 py-2">
+                DISCOVERY
+            </h1>
+            <div class="relative">
+                <button
+                    class="hidden lg:hidden md:block min-w-[60px] object-contain absolute top-1/2 -right-16 -translate-y-1/2 scroll"
+                    onclick="scrollFunction()">
+                    <img src="/images/news1.png" class="object-contain w-[40%]">
+                </button>
+                <div class="xl:w-[1230px] lg:w-[960px] w-full md:w-auto mx-0 md:gap-x-5 lg:gap-x-7 xl:gap-x-1 flex xl:justify-between lg:justify-start  overflow-hidden overflow-x-auto relative md:flex-row flex-col"
+                    id="randomImagesContainer">
+
+                    <div
+                        class="xl:max-w-[380px]  lg:min-w-[290px] border border-black md:min-w-[340px] my-4 md:mx-0 md:w-auto xl:my-0">
+                        <img src="/images/service(1).png" class="object-contain bg-cover w-full">
+                        <div class="flex flex-col justify-center align-middle content-center pl-6 pt-5 w-auto">
+                            <p class="xl:w-[85%] lg:w-[91%]">
+                                <span class="font-medium text-2xl">Lorem ipsum dolor</span><br>
+                                <span> sit amet consectetur. Lectus diam turpis condimentum convallis in. Ac lorem cras
+                                    laoreet
+                                    proin
+                                    suscipit tempor nibh fermentum.</span>
+                            </p>
+                            <div class="flex py-2 gap-x-3">
+                                <img src="/images/watch.png" class="object-contain">
+                                <p class="font-normal text-black text-base pl-2">2 day ago</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="xl:max-w-[380px]  lg:min-w-[290px] border border-black md:min-w-[340px] my-4 xl:my-0 ">
+                        <img src="/images/service(2).png" class="object-contain bg-cover w-full">
+                        <div class="flex flex-col justify-center align-middle content-center pl-6 pt-5">
+                            <p class="xl:w-[85%] lg:w-[91%]">
+                                <span class="font-medium text-2xl">Lorem ipsum dolor</span><br>
+                                <span> sit amet consectetur. Lectus diam turpis condimentum convallis in. Ac lorem cras
+                                    laoreet
+                                    proin
+                                    suscipit tempor nibh fermentum.</span>
+                            </p>
+                            <div class="flex py-2 gap-x-3">
+                                <img src="/images/watch.png" class="object-contain">
+                                <p class="font-normal text-black text-base pl-2">2 day ago</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="xl:max-w-[380px]  lg:min-w-[290px] border border-black md:min-w-[340px] my-4 xl:my-0 hidden md:block">
+                        <img src="/images/service(3).png" class="object-contain bg-cover w-full">
+                        <div class="flex flex-col justify-center align-middle content-center pl-6 pt-5">
+                            <p class="xl:w-[85%] lg:w-[91%]">
+                                <span class="font-medium text-2xl">Lorem ipsum dolor</span><br>
+                                <span> sit amet consectetur. Lectus diam turpis condimentum convallis in. Ac lorem cras
+                                    laoreet
+                                    proin
+                                    suscipit tempor nibh fermentum.</span>
+                            </p>
+                            <div class="flex w-full py-2 gap-x-3">
+                                <img src="/images/watch.png" class="object-contain">
+                                <p class="font-normal text-black text-base pl-2">2 day ago</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- just to check scrollbar -->
+                    <div
+                        class="xl:max-w-[380px]  lg:min-w-[290px] border border-black md:min-w-[340px] my-4 xl:my-0 hidden md:block lg:hidden">
+                        <img src="/images/service(3).png" class="object-contain bg-cover w-full">
+                        <div class="flex flex-col justify-center align-middle content-center pl-6 pt-5">
+                            <p class="xl:w-[85%] lg:w-[91%]">
+                                <span class="font-medium text-2xl">Lorem ipsum dolor</span><br>
+                                <span> sit amet consectetur. Lectus diam turpis condimentum convallis in. Ac lorem cras
+                                    laoreet
+                                    proin
+                                    suscipit tempor nibh fermentum.</span>
+                            </p>
+                            <div class="flex w-full py-2 gap-x-3">
+                                <img src="/images/watch.png" class="object-contain">
+                                <p class="font-normal text-black text-base pl-2">2 day ago</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div
+                        class="xl:max-w-[380px]  lg:min-w-[290px] border border-black md:min-w-[340px] my-4 xl:my-0 hidden md:block lg:hidden">
+                        <img src="/images/service(3).png" class="object-contain bg-cover w-full">
+                        <div class="flex flex-col justify-center align-middle content-center pl-6 pt-5">
+                            <p class="xl:w-[85%] lg:w-[91%]">
+                                <span class="font-medium text-2xl">Lorem ipsum dolor</span><br>
+                                <span> sit amet consectetur. Lectus diam turpis condimentum convallis in. Ac lorem cras
+                                    laoreet
+                                    proin
+                                    suscipit tempor nibh fermentum.</span>
+                            </p>
+                            <div class="flex w-full py-2 gap-x-3">
+                                <img src="/images/watch.png" class="object-contain">
+                                <p class="font-normal text-black text-base pl-2">2 day ago</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div
+                        class="xl:max-w-[380px]  lg:min-w-[290px] border border-black md:min-w-[340px] my-4 xl:my-0 hidden md:block lg:hidden">
+                        <img src="/images/service(3).png" class="object-contain bg-cover w-full">
+                        <div class="flex flex-col justify-center align-middle content-center pl-6 pt-5">
+                            <p class="xl:w-[85%] lg:w-[91%]">
+                                <span class="font-medium text-2xl">Lorem ipsum dolor</span><br>
+                                <span> sit amet consectetur. Lectus diam turpis condimentum convallis in. Ac lorem cras
+                                    laoreet
+                                    proin
+                                    suscipit tempor nibh fermentum.</span>
+                            </p>
+                            <div class="flex w-full py-2 gap-x-3">
+                                <img src="/images/watch.png" class="object-contain">
+                                <p class="font-normal text-black text-base pl-2">2 day ago</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div
+                        class="xl:max-w-[380px]  lg:min-w-[290px] border border-black md:min-w-[340px] my-4 xl:my-0 hidden md:block lg:hidden">
+                        <img src="/images/service(3).png" class="object-contain bg-cover w-full">
+                        <div class="flex flex-col justify-center align-middle content-center pl-6 pt-5">
+                            <p class="xl:w-[85%] lg:w-[91%]">
+                                <span class="font-medium text-2xl">Lorem ipsum dolor</span><br>
+                                <span> sit amet consectetur. Lectus diam turpis condimentum convallis in. Ac lorem cras
+                                    laoreet
+                                    proin
+                                    suscipit tempor nibh fermentum.</span>
+                            </p>
+                            <div class="flex w-full py-2 gap-x-3">
+                                <img src="/images/watch.png" class="object-contain">
+                                <p class="font-normal text-black text-base pl-2">2 day ago</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+    <!-- photogrph -->
+    <section class="w-full">
+        <h1 class="text-black font-medium md:text-3xl text-2xl pt-7 pb-7 xl:ml-[130px] md:mx-8 mx-4">
+            PHOTOGRAPH
+        </h1>
+        <div
+            class="flex xl:ml-[130px] xl:flex-row flex-col justify-between xl:w-[1230px] md:mx-8 lg:w-[960px] md:w-auto">
+
+            <div class="flex xl:w-[800px] w-full">
+
+                <div>
+
+                    <div
+                        class="bg-[url('/images/photograph(1).png')] object-contain object-center w-full h-[400px] bg-no-repeat bg-cover flex flex-col justify-center  align-bottom">
+                        <div class="flex flex-col justify-center mt-48 xl:mt-56 xl:ml-9 md:mx-4 mx-4">
+                            <h1 class="font-medium md:text-3xl text-2xl text-white">
+                                HAPPENING NOW.
+                            </h1>
+                            <p class="font-normal text-base text-white lg:w-[90%] w-full">
+                                Lorem ipsum dolor sit amet consectetur. Lectus diam turpis condimentum convallis in. Ac
+                                lorem
+                                cras laoreet proin suscipit tempor nibh fermentum ipsum dolor sit amet consectetur.
+                                Lectus
+                                diam
+                                turpis condimentum convallis in. Ac lorem cras laoreet proin suscipit tempor nibh
+                                fermentum.
+                            </p>
+                        </div>
+                    </div>
+                    <div
+                        class="bg-[url('/images/photograph(2).png')] object-contain object-center w-full h-[400px] bg-no-repeat bg-cover flex flex-col justify-center align-bottom lg:mt-20 mt-8">
+                        <div class="flex flex-col justify-center mt-48 xl:mt-56 xl:ml-9 md:mx-4 mx-4">
+                            <h1 class="font-medium md:text-3xl text-2xl text-white">
+                                HAPPENING NOW.
+                            </h1>
+                            <p class="font-normal text-base text-white lg:w-[90%] w-full">
+                                Lorem ipsum dolor sit amet consectetur. Lectus diam turpis condimentum convallis in. Ac
+                                lorem
+                                cras laoreet proin suscipit tempor nibh fermentum ipsum dolor sit amet consectetur.
+                                Lectus
+                                diam
+                                turpis condimentum convallis in. Ac lorem cras laoreet proin suscipit tempor nibh
+                                fermentum.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="flex xl:flex-col gap-x-12  lg:gap-x-5 justify-between mt-9 xl:mt-0 md:mx-0 mx-4">
+                <div class="xl:w-[380px] lg:w-[300px] border border-black md:min-w-[310px] gap-x-5">
+                    <img src="/images/mountain.png" class="object-contain bg-cover w-full">
+                    <div class="px-5 pt-4">
+                        <p>
+                            <span class="font-medium lg:text-2xl text-xl">
+                                Lorem ipsum dolor
+                            </span>
+                            <br>
+                            <span>
+                                sit amet consectetur. Lectus diam turpis condimentum convallis in.
+                            </span>
+                        </p>
+                        <div class="flex w-full py-3 gap-x-3">
+                            <img src="/images/watch.png" class="object-contain">
+                            <p class="font-normal text-black text-base pl-3">2 day ago</p>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="xl:w-[380px] lg:w-[300px] border border-black xl:mt-[2.2rem] md:min-w-[310px] md:block hidden">
+                    <img src="/images/girl.png" alt="" class="object-contain">
+                    <div class="px-5 pt-4">
+                        <p>
+                            <span class="font-medium text-xl lg:text-2xl">
+                                Lorem ipsum dolor
+                            </span>
+                            <br>
+                            <span>
+                                sit amet consectetur. Lectus diam turpis condimentum convallis in.
+                            </span>
+                        </p>
+                        <div class="flex w-full py-3 gap-x-3">
+                            <img src="/images/watch.png" class=" object-contain ">
+                            <p class="font-normal text-black text-base pl-3">2 day ago</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="xl:w-[380px] lg:w-[300px] border border-black xl:mt-[2.2rem]  hidden lg:block">
+                    <img src="/images/galaxy.png" class="object-contain">
+                    <div class="px-5 pt-4">
+                        <p class="">
+                            <span class="font-medium text-xl lg:text-2xl">
+                                Lorem ipsum dolor
+                            </span>
+                            <br>
+                            <span>
+                                sit amet consectetur. Lectus diam turpis condimentum convallis in.
+                            </span>
+                        </p>
+                        <div class="flex w-full py-3 gap-x-3">
+                            <img src="/images/watch.png" class="object-contain">
+                            <p class="font-normal text-black text-base pl-3">2 day ago</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="flex md:hidden pt-2 w-auto text-center justify-between mx-20">
+                <a href="" class=""><img src="/images/news.png" alt=""></a>
+                <a href=""> <img src="/images/news1.png" alt=""></a>
+            </div>
+        </div>
+    </section>
+    <section class="w-full">
+        <footer class="">
+            <div class="flex justify-center text-center bg-black text-white  py-8 mt-[70px] gap-x-4">
+                <img src="/images/footer.png ">
+                <h3 class="font-normal text-lg">
+                    loremtravel.com
+                </h3>
+            </div>
+        </footer>
+    </section>
+    <script>
+        window.addEventListener('load', function () {
+
+            let header = document.getElementById('headerul')
+            let button = document.getElementById('activatebutton')
+            button.addEventListener('click', function () {
+                let headerbarhidden = header.classList.contains('hidden');
+                let icon = button.querySelector('i');
+                if (headerbarhidden) {
+                    header.classList.add('flex');
+                    header.classList.remove('hidden');
+                }
+                else {
+                    header.classList.add('hidden');
+                    header.classList.remove('flex');
+                }
+            });
+
+        });
+        window.addEventListener('load', function () {
+
+            let header = document.getElementById('headerul')
+            let button = document.getElementById('closingbutton')
+            button.addEventListener('click', function () {
+                let headerbarhidden = header.classList.contains('hidden');
+                let icon = button.querySelector('i');
+                if (headerbarhidden) {
+                    header.classList.add('flex');
+                    header.classList.remove('hidden');
+                }
+                else {
+                    header.classList.add('hidden');
+                    header.classList.remove('flex');
+                }
+            });
+        });
+        function scrollFunction() {
+            let imagesContainer = document.getElementById('randomImagesContainer');
+            let images = imagesContainer.getElementsByTagName('img');
+            let randomIndex = Math.floor(Math.random() * images.length);
+            let randomImage = images[randomIndex];
+
+            randomImage.scrollIntoView({ behavior: 'smooth' });
+        }
+
+
+
+
+
+    </script>
+
+</body>
+
+
+</html>
