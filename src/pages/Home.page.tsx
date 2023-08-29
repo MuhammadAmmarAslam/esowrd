@@ -27,9 +27,9 @@ export default function HomePage() {
                                 </div>
                                 {/* verses component for small screen */}
                                 <div className="block lg:hidden">
-                                    <Accordion type="single" collapsible>
-                                        <AccordionItem value="item-1">
-                                            <AccordionTrigger className="toggle-btn bg-silver-light py-3 font-inter lg:pl-3 pl-[10px] pr-[19px] lg:border-0 border-b flex justify-between">
+                                    <Accordion type="single" collapsible defaultValue="item-1">
+                                        <AccordionItem value="item-1" >
+                                            <AccordionTrigger className="toggle-btn bg-silver-light py-3 font-inter lg:pl-3 px-5 lg:border-0 border-b flex justify-between">
                                                 <h3 className="text-xs font-bold">
                                                     VERSES
                                                 </h3>
@@ -51,7 +51,7 @@ export default function HomePage() {
                             <div className="block lg:hidden">
                                 <Accordion type="single" collapsible>
                                     <AccordionItem value="item-1">
-                                        <AccordionTrigger className="toggle-btn bg-silver-light py-3 font-inter lg:pl-3 pl-[10px] pr-[19px] lg:border-0 border-b flex justify-between lg:hidden">
+                                        <AccordionTrigger className="toggle-btn bg-silver-light py-3 font-inter lg:pl-3 px-5 lg:border-0 border-b flex justify-between lg:hidden">
                                             <h3 className="text-xs font-bold">
                                                 COMMENTARIES
                                             </h3>
@@ -70,7 +70,7 @@ export default function HomePage() {
                             <div>
                                 <Accordion type="single" collapsible>
                                     <AccordionItem value="item-1">
-                                        <AccordionTrigger className="toggle-btn bg-silver-light py-3 font-inter lg:pl-3 pl-[10px] pr-[19px] lg:border-0 border-b flex justify-between lg:hidden">
+                                        <AccordionTrigger className="toggle-btn bg-silver-light py-3 font-inter lg:pl-3 px-5 lg:border-0 border-b flex justify-between lg:hidden">
                                             <h3 className="text-xs font-bold">
                                                 NOTES
                                             </h3>
