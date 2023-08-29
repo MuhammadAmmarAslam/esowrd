@@ -84,8 +84,15 @@ export default function BlogsPage() {
                                     </p>
                                 </div>
 
-                                <div className="max-h-[calc(100vh_-_100px)] overflow-auto min-w-[20px] space-y-1">
+                                <div className="max-h-[calc(100vh_-_100px)] overflow-auto min-w-[40px] text-center space-y-4">
                                     <img src="/icons/bookfill-icon.png" alt="" className="w-auto h-auto" />
+                                    <img src="/icons/bookfill-icon.png" alt="" className="w-auto h-auto" />
+                                    <img src="/icons/bookfill-icon.png" alt="" className="w-auto h-auto" />
+                                    <img src="/icons/bookfill-icon.png" alt="" className="w-auto h-auto" />
+                                    <img src="/icons/bookfill-icon.png" alt="" className="w-auto h-auto" />
+                                    <img src="/icons/bookfill-icon.png" alt="" className="w-auto h-auto" />
+                                    <img src="/icons/bookfill-icon.png" alt="" className="w-auto h-auto" />
+                                   
                                 </div>
                             </div>
 
