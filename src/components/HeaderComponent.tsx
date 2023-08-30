@@ -14,18 +14,23 @@ export default function HeaderComponent() {
                 <div>
                     <div className="flex text-white lg:gap-x-11 md:gap-x-6 md:px-3 px-5 gap-x-1 text-sm ">
                         <div className="flex lg:gap-x-0">
-                           
                             <div className="font-bold py-3 lg:block hidden">
-                                <a href="/">Home</a>
+                                <a href="/home">Home</a>
                             </div>
-                            
+
                             <select name="Manu" id="Manu" className="bg-transparent lg:hidden md:w-auto w-16">
-                                <option value="Manu" className="text-black  ">Home</option>
-                                <option value="Manu" className="text-black">Donation</option>
-                                <option value="Manu" className="text-black">Search </option>
-                           
+                                <option value="Manu" className="text-black">
+                                    <a href="/home">Home</a>
+                                </option>
+                                <option value="donate" className="text-black">
+                                    <a href="/donate">Donation</a>
+                                </option>
+                                <option value="search" className="text-black">
+                                    Search
+                                </option>
                             </select>
                         </div>
+
                         <div>
                             <div className="font-normal py-3 lg:block hidden">
                                 <a href="/donate">Donate</a>
