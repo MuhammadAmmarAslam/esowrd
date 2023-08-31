@@ -11,8 +11,8 @@ export default function  BooksChapterComponent () {
                     <h3 className="lg:text-xs text-[10px] lg:font-bold font-normal px-5">
                         BIBLE BOOKS
                     </h3>
-                    <select name="" id="Books" className="lg:hidden mx-4 pt-1">
-                        <option value="Books">
+                    <select name="" id="Books" className="lg:hidden mx-4 pt-1 text-primary-dark hover:bg-primary/30 hover:text-primary-dark ">
+                        <option value="Books" className="">
                             Genesis
                         </option>
                         <option value="Books">
