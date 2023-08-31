@@ -3,7 +3,7 @@ import BooksChapterComponent from "@/components/BooksChapterComponent";
 import HeaderComponent from "@/components/HeaderComponent";
 import PaginationComponent from "@/components/PaginationComponent";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@radix-ui/react-accordion";
-import { BookmarkFilledIcon, ChevronDownIcon } from "@radix-ui/react-icons";
+import {  ChevronDownIcon } from "@radix-ui/react-icons";
 
 
 
@@ -83,7 +83,7 @@ export default function BlogsPage() {
                                         All beginnings must begin with God. Always put I for trotoite teat tons no the has an end first thought every morning, the first aim and 4 purpose of all activity. Bein the took tree year with God, and you will end it with the glory of the New Jerusalem. At first, as in the physical creation,  and life may seem to be "without form and void." Do not be discouraged, the Spirit of God is within you,  amid the darkness, and presently His Light will shine through.
                                     </p>
                                 </div>
-                                <div className="flex flex-col gap-4 pt-3 px-2  overflow-y-auto max-h-[calc(100vh_-_100px)] w">
+                                <div className="flex flex-col gap-4 pt-3 px-2  overflow-y-auto max-h-[calc(100vh_-_100px)] ">
                                     <a href="">
                                         <img src="/icons/bookfill-icon.png " className="bookmark" />
                                     </a>
