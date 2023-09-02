@@ -3,7 +3,7 @@ import BooksChapterComponent from "@/components/BooksChapterComponent";
 import HeaderComponent from "@/components/HeaderComponent";
 import PaginationComponent from "@/components/PaginationComponent";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@radix-ui/react-accordion";
-import {  ChevronDownIcon } from "@radix-ui/react-icons";
+import { ChevronDownIcon } from "@radix-ui/react-icons";
 
 
 
@@ -42,7 +42,7 @@ export default function BlogsPage() {
                     <div className="lg:grid grid-cols-11 ">
                         <div className="col-span-7  w-full  text-primary-dark text-base font-normal font-roman lg:border-r-[10px]  ">
                             <div className="flex ">
-                                <div className="space-y-3 max-h-[calc(100vh_-_100px)] overflow-y-auto w-full p-[10px] md:p-5">
+                                <div className="space-y-3 max-h-[calc(100vh_-_400px)] md:max-h-[calc(100vh_-_100px)] overflow-y-auto w-full  p-[10px] md:p-5">
                                     <p>
                                         All beginnings must begin with God. Always put I for trotoite teat tons no the has an end first thought every morning, the first aim and 4 purpose of all activity. Bein the took tree year with God, and you will end it with the glory of the New Jerusalem. At first, as in the physical creation,  and life may seem to be "without form and void." Do not be discouraged, the Spirit of God is within you,  amid the darkness, and presently His Light will shine through.
                                     </p>
@@ -83,7 +83,7 @@ export default function BlogsPage() {
                                         All beginnings must begin with God. Always put I for trotoite teat tons no the has an end first thought every morning, the first aim and 4 purpose of all activity. Bein the took tree year with God, and you will end it with the glory of the New Jerusalem. At first, as in the physical creation,  and life may seem to be "without form and void." Do not be discouraged, the Spirit of God is within you,  amid the darkness, and presently His Light will shine through.
                                     </p>
                                 </div>
-                                <div className="flex flex-col gap-4 pt-4 pr-2 md:px-2 overflow-y-auto max-h-[calc(100vh_-_100px)] ">
+                                <div className="flex flex-col gap-4 pt-4 pr-2 md:px-2 overflow-y-auto max-h-[calc(100vh_-_400px)] md:max-h-[calc(100vh_-_100px)] ">
                                     <a href="">
                                         <img src="/icons/bookfill-icon.png " className="bookmark" />
                                     </a>
@@ -132,8 +132,8 @@ export default function BlogsPage() {
                                     <a href="">
                                         <img src="/icons/bookfill-icon.png " className="bookmark" />
                                     </a>
-                                  
-                                  
+
+
                                 </div>
                             </div>
                         </div>
@@ -142,7 +142,7 @@ export default function BlogsPage() {
                             <div className="p-5 space-y-4  overflow-auto  min-h-[calc(100vh_-_100px)] max-h-[calc(100vh_-_100px)]">
                                 <BlogsContent />
                             </div>
-                            <div className="absolute bottom-2 w-full overflow-hidden bg-primary px-5 z-50 hidden">
+                            <div className="absolute bottom-0 w-full overflow-hidden bg-silver-light px-5 hidden">
                                 <PaginationComponent />
                             </div>
                         </div>
