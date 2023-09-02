@@ -13,10 +13,10 @@ export default function AboutUsPage() {
                     <BooksChapterComponent />
                 </div>
                 <div className="w-full  ">
-                    <h3 className="text-xs font-bold py-3 lg:pl-3 px-5 lg:border-0 border-b  w-full bg-silver-light ">
+                    <h3 className="text-xs font-bold py-3 lg:pl-3 px-5 lg:border-0 border-b  w-full bg-silver-light font-inter">
                         ABOUT US
                     </h3>
-                    <div className="bg-primary flex  justify-center p-7     md:max-h-[calc(100vh_-_100px)] md:min-h-[calc(100vh_-_100px)]">
+                    <div className="bg-primary flex  justify-center p-4 md:max-h-[calc(100vh_-_100px)] md:min-h-[calc(100vh_-_100px)]">
                         <Card className="bg-white w-full overflow-auto  ">
                             <CardContent className="p-0 h-auto flex flex-col py-4 gap-4 md:gap-16 md:py-10 ">
                                 <div className="flex flex-col  items-center  gap-3">

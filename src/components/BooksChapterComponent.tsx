@@ -7,7 +7,7 @@ export default function  BooksChapterComponent () {
       <div className="flex lg:mx-0 mx-[10px] lg:my-0 my-1 gap-x-3 lg:gap-x-0 bg-white lg:max-w-[186px] lg:min-w-[186px] w-full  lg:px-0 px-3">
             <div
                 className="lg:min-w-[130px] lg:max-w-[130px] w-full font-inter lg:border-0 lg:border-r-2 border border-solid text-primary-dark lg:rounded-none rounded-lg">
-                <div className="lg:bg-silver-light bg-white py-3 flex lg:border-0 border-b flex-col  rounded-lg">
+                <div className="lg:bg-silver-light bg-white py-3 flex lg:border-0 border-b flex-col lg:rounded-none  rounded-lg">
                     <h3 className="lg:text-xs text-[10px] lg:font-bold font-normal px-5">
                         BIBLE BOOKS
                     </h3>
